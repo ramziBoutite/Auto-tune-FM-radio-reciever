@@ -1,0 +1,580 @@
+{
+  "uuid": "14c6cff4ad15861c66f5f348745c0012",
+  "path": "Offline/Auto-tune-FM-reciever-1.00",
+  "name": "Auto-tune-FM-reciever-1.00",
+  "content": "",
+  "created_at": "2024-02-23 15:31:22",
+  "updated_at": "2024-02-25 02:03:36",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "26b25436e86f9fbcac302f1706184043",
+      "title": "Shematics",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "b033bff3a7024851be01e210aa12514d": 1,
+        "e9a3e7176c8f4bd888d091720f82caa7": 1,
+        "76771094b24c46ec996d0c519d963a4f": 2,
+        "12910f25495140cc86e38e6bb42be5dc": 1,
+        "4974cb0ed7c941f18108a83148dabf1f": 1,
+        "4dc289cd5d3a47a687ca9bc071d302f9": 1,
+        "6778bc826a1a44ae8fb8f20c6727b060": 1,
+        "69b1252372534d2d96e8bc3a050578ff": 1,
+        "9ba3ff22b3ca423c8cbbd98ac2e4164f": 2,
+        "d14730f77a56e172a76aa202118a2add": 3,
+        "89a95820ff8e4245b0f16da0876da8f6": 1,
+        "fb99747cc7b2482db5ff83d36e689e9d": 1,
+        "6d1cd9731c3646b783cb79521f750240": 1,
+        "86863e2e1d674bb3927efd76e2b69e9a": 2,
+        "31efd0966255ae6ed767c80d0b9802fb": 3,
+        "450b48bd4a684dbebd08716205c52342": 3,
+        "ee6166c198cc47458d5b590d4d663ce7": 1,
+        "52616e4c2ebf4a9cb87502ef84e7cec9": 1,
+        "f1a4c66c3f9a4c468fa395ce2957a650": 1,
+        "a8c0457080414841bf642baae822cbd6": 1,
+        "2836a9f1db104b5e934bbdd6c37be1dd": 1,
+        "8092b3e7b5034138b487300cebeba4ea": 1,
+        "31222de3226f4ade9c44f7bb7e8a0736": 1,
+        "f9ecfb36e3de4abb8539172ac87b98f9": 1,
+        "af4898dfebfb4b8289bcc804ef8e1cb5": 1,
+        "6866aa5d66ba471eb03d36b5ee6a64b7": 1,
+        "98c08583b3e2497d93d9c28b0e6f8458": 1,
+        "56e8bd2c26374edfb6a1b344dcbf539b": 1,
+        "b24adbf78a484028876fba824d445bf7": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Antena",
+          1,
+          "ANTENA_1P",
+          "ANT1",
+          {
+            "Contributor": "kylevaughan",
+            "Mounted": "Yes",
+            "Manufacturer Part": "?",
+            "spiceSymbolName": "Antena",
+            "puuid": "",
+            "uuid": "e9a3e7176c8f4bd888d091720f82caa7"
+          }
+        ],
+        [
+          "220pF",
+          1,
+          "CAP-TH_L6.5-W5.0-P5.00-D1.2",
+          "C1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C190532",
+            "Manufacturer": "FH(风华)",
+            "Manufacturer Part": "CT81N5Y5P1B221KSE",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CT81N5Y5P1B221KSE",
+            "Package Display": "No",
+            "puuid": "de74c1f59f5c444d83fe2f4a7eab3af1",
+            "uuid": "4974cb0ed7c941f18108a83148dabf1f"
+          }
+        ],
+        [
+          "330pF",
+          2,
+          "CAP-TH_L4.9-W3.7-P5.08-D0.5",
+          "C2,C9",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C454432",
+            "Manufacturer": "TORCH(火炬)",
+            "Manufacturer Part": "CC4-0805-CG-100V-330pF-J",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CC4-0805-CG-100V-330PF-J",
+            "Package Display": "No",
+            "puuid": "85e043097850463c85f04d8dd32864cc",
+            "uuid": "9ba3ff22b3ca423c8cbbd98ac2e4164f"
+          }
+        ],
+        [
+          "100nF",
+          3,
+          "CAP-TH_L4.9-W3.7-P5.08-D0.5",
+          "C3,C17,C18",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "null",
+            "Manufacturer Part": "0.1UF(104) +-20% 63v",
+            "Supplier Part": "C19355",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "100nF",
+            "Package Display": "No",
+            "puuid": "85e043097850463c85f04d8dd32864cc",
+            "uuid": "d14730f77a56e172a76aa202118a2add"
+          }
+        ],
+        [
+          "47pF",
+          1,
+          "CAP-TH_L4.8-W3.2-P5.08-D0.5",
+          "C4",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C123159",
+            "Manufacturer": "TORCH(火炬)",
+            "Manufacturer Part": "CC4-0805-CG-50V-47pF-J",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CC4-0805-CG -50V-47pF-J",
+            "Package Display": "No",
+            "puuid": "788e7d1cb33f48a3935dbe0ea05ce338",
+            "uuid": "89a95820ff8e4245b0f16da0876da8f6"
+          }
+        ],
+        [
+          "33pF",
+          1,
+          "CAP-TH_L4.8-W3.2-P5.08-D0.5",
+          "C5",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C123153",
+            "Manufacturer": "TORCH(火炬)",
+            "Manufacturer Part": "CC4-0805-CG-50V-33pF-J",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CC4-0805-CG -50V-33pF-J",
+            "Package Display": "No",
+            "puuid": "788e7d1cb33f48a3935dbe0ea05ce338",
+            "uuid": "fb99747cc7b2482db5ff83d36e689e9d"
+          }
+        ],
+        [
+          "2.2nF",
+          1,
+          "CAP-TH_L10.0-W5.0-P7.50-D0.6",
+          "C6",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C263246",
+            "Manufacturer": "Dersonic(德尔创)",
+            "Manufacturer Part": "CY1222ME1IEF47M0A2",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CY1222ME1IEF47M0A2",
+            "Package Display": "No",
+            "puuid": "13214e10ad2b41f6a15dc22999470637",
+            "uuid": "6d1cd9731c3646b783cb79521f750240"
+          }
+        ],
+        [
+          "150pF",
+          2,
+          "CAP-TH_L4.9-W3.7-P2.54-D0.5",
+          "C7,C14",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C454400",
+            "Manufacturer": "TORCH(火炬)",
+            "Manufacturer Part": "CC4-0805-CG-100V-150pF-J-L",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CC4-0805-CG-100V-150PF-J-L",
+            "Package Display": "No",
+            "puuid": "082251b7015e42ff88e6f34445ae66d4",
+            "uuid": "86863e2e1d674bb3927efd76e2b69e9a"
+          }
+        ],
+        [
+          "3.3nF",
+          3,
+          "RAD-0.1",
+          "C8,C15,C16",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "LCSC",
+            "Manufacturer Part": "332Z-50V-CCC",
+            "Supplier Part": "C3746",
+            "spiceSymbolName": "3.3nF",
+            "Package Display": "No",
+            "puuid": "ea82fbe34d7840de9fdcf3145ab199ef",
+            "uuid": "31efd0966255ae6ed767c80d0b9802fb"
+          }
+        ],
+        [
+          "10nF",
+          3,
+          "CAPACITOR 10NF #2",
+          "C10,C13,C19",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C156259",
+            "Manufacturer": "WIMA",
+            "Manufacturer Part": "MKS2C022201A00MSSD",
+            "Contributor": "Benumb",
+            "spiceSymbolName": "Capacitor 10nF #2",
+            "Package Display": "No",
+            "puuid": "0e36be7c10074bc9b879c22b35701a60",
+            "uuid": "450b48bd4a684dbebd08716205c52342"
+          }
+        ],
+        [
+          "220nF(224)±5%",
+          1,
+          "CAP-TH_L16.0-W5.5-P15.00-D1.2",
+          "C11",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "ValuePro",
+            "Manufacturer Part": "CBBCapacitor 224J/630V",
+            "Supplier Part": "C66961",
+            "spiceSymbolName": "CBBCapacitor 224J/630V",
+            "Package Display": "No",
+            "puuid": "9d9a77115ac24d6794dd5bf390f0b08b",
+            "uuid": "ee6166c198cc47458d5b590d4d663ce7"
+          }
+        ],
+        [
+          "22nF",
+          1,
+          "CAPACITOR 22NF #7",
+          "C12",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C156259",
+            "Manufacturer": "WIMA",
+            "Manufacturer Part": "MKS2C022201A00MSSD",
+            "Contributor": "Benumb",
+            "spiceSymbolName": "Capacitor 22nF #7",
+            "Package Display": "No",
+            "puuid": "9e496259890d46eeb4422c2d79b3753c",
+            "uuid": "52616e4c2ebf4a9cb87502ef84e7cec9"
+          }
+        ],
+        [
+          "470uF",
+          1,
+          "470UF 16V AMIR",
+          "C20",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "ValuePro",
+            "Manufacturer Part": "470uf16v",
+            "Supplier Part": "C28067",
+            "spiceSymbolName": "470UF16V",
+            "Package Display": "No",
+            "puuid": "14f7637aebb84bd185c65ff665a184b4",
+            "uuid": "b24adbf78a484028876fba824d445bf7"
+          }
+        ],
+        [
+          "Zener 3.3V",
+          1,
+          "ZENER_3.3V",
+          "D1",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900018130",
+            "Manufacturer": "null",
+            "Manufacturer Part": "Z7.5-CKD-3.3V@5mA",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "mirko.hennel",
+            "spiceSymbolName": "Z7.5-CKD-3.3V@5MA",
+            "Package Display": "No",
+            "puuid": "2c2832d430b848ada738b7a890fa4a23",
+            "uuid": "8092b3e7b5034138b487300cebeba4ea"
+          }
+        ],
+        [
+          "3MM GREEN TH LED 5600 COPY COPY",
+          1,
+          "LED-TH_LED-DP2-2LED",
+          "D2",
+          {
+            "Supplier": "Digi-Key",
+            "Manufacturer": "VccLite",
+            "Manufacturer Part": "5600",
+            "Supplier Part": "L20325-ND",
+            "link": "https://vcclite.com/product/5602f5-5v/",
+            "Contributor": "AlexKatsovich",
+            "spiceSymbolName": "3MM GREEN TH LED 5600 COPY COPY",
+            "Package Display": "Yes",
+            "puuid": "4faf147de12449b3ba781676e06322db",
+            "uuid": "98c08583b3e2497d93d9c28b0e6f8458"
+          }
+        ],
+        [
+          "Diode_Varicap_BB105G",
+          1,
+          "DIODE_VARICAP_BB105G",
+          "DV2",
+          {
+            "description": "High Conductance Fast Diode",
+            "Contributor": "tontondadou",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Diode_Varicap_BB105G",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "puuid": "0d676835f4a24b08a342f04026d179d4",
+            "uuid": "4dc289cd5d3a47a687ca9bc071d302f9"
+          }
+        ],
+        [
+          "power",
+          1,
+          "",
+          "J1",
+          {
+            "description": "",
+            "Contributor": "KiCAD",
+            "license": "https://www.gnu.org/licenses/lgpl-2.1.html",
+            "spiceSymbolName": "Screw_Terminal_1x02",
+            "Manufacturer Part": "",
+            "puuid": "",
+            "uuid": "76771094b24c46ec996d0c519d963a4f"
+          }
+        ],
+        [
+          "Screw_Terminal_1x02",
+          1,
+          "",
+          "J2",
+          {
+            "description": "",
+            "Contributor": "KiCAD",
+            "license": "https://www.gnu.org/licenses/lgpl-2.1.html",
+            "spiceSymbolName": "Screw_Terminal_1x02",
+            "Manufacturer Part": "",
+            "puuid": "",
+            "uuid": "76771094b24c46ec996d0c519d963a4f"
+          }
+        ],
+        [
+          "1mH",
+          1,
+          "IND-TH_BD5.0-L10.5-P14.50-D0.6",
+          "L1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C354679",
+            "Manufacturer": "CENKER(岑科)",
+            "Manufacturer Part": "CKL0510-1mH/K-A-0.252MHz T",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CKL0510-1MH/K-A-0.252MHZ T",
+            "Package Display": "No",
+            "puuid": "c47ed042bbb34738a6bbbf1170476210",
+            "uuid": "6778bc826a1a44ae8fb8f20c6727b060"
+          }
+        ],
+        [
+          "BC547",
+          1,
+          "TO-92-3_L4.5-W3.5-P1.27-L",
+          "Q1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2910381",
+            "Manufacturer": "CJ(江苏长电/长晶)",
+            "Manufacturer Part": "BC547",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "BC547",
+            "puuid": "560158fdc69b488f8a3fe99daed4a070",
+            "uuid": "12910f25495140cc86e38e6bb42be5dc"
+          }
+        ],
+        [
+          "270kΩ",
+          1,
+          "RES-TH_BD5.0-L15.5-P19.50-D0.7",
+          "R1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C119760",
+            "Manufacturer": "CCO(千志电子)",
+            "Manufacturer Part": "MF3WS-270KΩ±1% T",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "MF3WS-270KΩ±1% T",
+            "Package Display": "No",
+            "puuid": "3555ffdfa5e3425c8467c785b518656f",
+            "uuid": "f1a4c66c3f9a4c468fa395ce2957a650"
+          }
+        ],
+        [
+          "82Ω",
+          1,
+          "RES-TH_BD5.6-L13.1-P17.10-D1.0",
+          "R2",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3532084",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "23J82RE",
+            "spiceSymbolName": "23J82RE",
+            "Package Display": "No",
+            "puuid": "042490e89b88402bafa5d75a595e3b0f",
+            "uuid": "a8c0457080414841bf642baae822cbd6"
+          }
+        ],
+        [
+          "5.6kΩ",
+          1,
+          "RES-TH_BD5.6-L13.1-P17.10-D1.0",
+          "R3",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3542006",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "23J5K6E",
+            "spiceSymbolName": "23J5K6E",
+            "Package Display": "No",
+            "puuid": "042490e89b88402bafa5d75a595e3b0f",
+            "uuid": "2836a9f1db104b5e934bbdd6c37be1dd"
+          }
+        ],
+        [
+          "100kΩ",
+          1,
+          "AXIAL RESISTOR 100K OHM - TH_BD2.3-L6.0-P10.00-D0.4",
+          "R4",
+          {
+            "Contributor": "Waleed Kies",
+            "Supplier": "",
+            "Supplier Part": "",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "AXIAL RESISTOR 100K OHM - TH_BD2.3-L6.0-P10.00-D0.4",
+            "Package Display": "No",
+            "puuid": "f213154d504b4693b0358f0a427d6bff",
+            "uuid": "f9ecfb36e3de4abb8539172ac87b98f9"
+          }
+        ],
+        [
+          "1k5",
+          1,
+          "1K5 RESISTOR",
+          "R5",
+          {
+            "Contributor": "jurjenspan120",
+            "spiceSymbolName": "R_0603_EU",
+            "Manufacturer Part": "",
+            "Package Display": "No",
+            "puuid": "f0f5f5354a0e46e59d7c75dc8c41c9aa",
+            "uuid": "af4898dfebfb4b8289bcc804ef8e1cb5"
+          }
+        ],
+        [
+          "100K Pot",
+          1,
+          "100K_POT",
+          "R6",
+          {
+            "Manufacturer": "Amazon",
+            "Manufacturer Part": "",
+            "Supplier": "",
+            "Supplier Part": "Uxcell a15040700ux0373",
+            "link": "",
+            "Contributor": "gdc14910",
+            "spiceSymbolName": "100K Pot",
+            "Package Display": "Yes",
+            "puuid": "c0470e5e361a40689c1d3299b9035c72",
+            "uuid": "31222de3226f4ade9c44f7bb7e8a0736"
+          }
+        ],
+        [
+          "Resistor 10KΩ",
+          1,
+          "RESISTOR 10KΩ",
+          "R7",
+          {
+            "Manufacturer Part": "Resistor 10kΩ",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "IVI1",
+            "spiceSymbolName": "Resistor 10KΩ",
+            "Package Display": "No",
+            "puuid": "5e371585ea394aafa28af3e97baf31dc",
+            "uuid": "6866aa5d66ba471eb03d36b5ee6a64b7"
+          }
+        ],
+        [
+          "470Ω",
+          1,
+          "RES-TH_BD2.4-L6.3-P10.30-D0.6",
+          "R11",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C176518",
+            "Manufacturer": "YAGEO(国巨)",
+            "Manufacturer Part": "MFR-25JT-52-470R",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "MFR-25JT-52-470R",
+            "Package Display": "No",
+            "puuid": "2915f1f0a54941d7b912decfe617b47f",
+            "uuid": "56e8bd2c26374edfb6a1b344dcbf539b"
+          }
+        ],
+        [
+          "TDA7000",
+          1,
+          "TDA7000",
+          "U1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "ivokovacic",
+            "spiceSymbolName": "TDA7000",
+            "puuid": "2a3d49e52dab4d01b89ed3a6bd64d51a",
+            "uuid": "b033bff3a7024851be01e210aa12514d"
+          }
+        ],
+        [
+          "LM7805G-TF3-T",
+          1,
+          "TO-220F-3_L10.2-W4.7-P2.54-L",
+          "U2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C213490",
+            "Manufacturer": "UTC(友顺)",
+            "Manufacturer Part": "LM7805G-TF3-T",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "LM7805G-TF3-T",
+            "Package Display": "No",
+            "puuid": "b1ab92650b1b4b50b63719629740003c",
+            "uuid": "69b1252372534d2d96e8bc3a050578ff"
+          }
+        ]
+      ],
+      "updateTime": 1708823016,
+      "createTime": 1708698682,
+      "histories": [],
+      "created_at": "2024-02-23 15:31:22",
+      "updated_at": "2024-02-25 02:03:36"
+    }
+  ],
+  "sort": [],
+  "title": "Auto-tune-FM-reciever-1.00",
+  "foldername": "Auto-tune-FM-reciever-1.00",
+  "schfilename": "Auto-tune-FM-reciever-1.00.json",
+  "schfilemtime": 1708823016593
+}
